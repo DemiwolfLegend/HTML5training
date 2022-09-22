@@ -1,0 +1,39 @@
+
+        p {
+            color: magenta;
+            padding: 10px;
+            margin-left: 100px;
+        }
+
+        th,
+        table,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        img {
+            float: right;
+            width: 50%;
+            border: 10px;
+            border-color: blue;
+            border-style: double;
+            border-radius: 1000px;
+        }
+
+        img:hover {
+            border-radius: 0px;
+        }
+
+        a:link,
+        a:visited {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: rgb(255, 3, 3);
+            background-color: rgb(254, 253, 253);
+            text-decoration: underline;
+        }
